@@ -13,7 +13,6 @@ import Foundation
 
 enum colors {
     static let button = UIColor(red:0.58, green:0.26, blue:0.25, alpha:1.0)
-    
     static let backgroundDarckcolor = UIColor(red: (51/255), green: (161/255), blue: (152/255), alpha: 1)
     static let backgroundLightcolor = UIColor(red: (15/255), green: (164/255), blue: (184/255), alpha: 1)
     static let textFieldsBorder = UIColor(red:0.80, green:0.80, blue:0.80, alpha:1.0)
@@ -48,6 +47,7 @@ extension UIImageView {
 }
 
 //all lbls
+
 extension UILabel {
     func changeUILabel( title: String , size: CGFloat ){
         self.text = title
