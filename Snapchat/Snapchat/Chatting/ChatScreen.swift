@@ -176,7 +176,7 @@ extension ChatScreen: UITableViewDelegate, UITableViewDataSource {
 
         let dmScreen = DMScreen()
         dmScreen.user = currentUserName
-        dmScreen.barTitle = users[indexPath.row].name
+        dmScreen.barTitle = users[indexPath.row].name ?? ""
         dmScreen.navigationItem.largeTitleDisplayMode = .never
 
         navigationController?.pushViewController(dmScreen, animated: true)
@@ -205,7 +205,7 @@ extension ChatScreen: UISearchResultsUpdating, UISearchBarDelegate {
     private func findResultsBasedOnSearch(with text: String)  {
         filterUsers.removeAll()
         if !text.isEmpty {
-            filterUsers = users.filter{$0.name.lowercased().contains(text.lowercased()) }
+            filterUsers = users.filter{$0.name!.lowercased().contains(text.lowercased()) }
             tableView.reloadData()
         }else{
             tableView.reloadData()

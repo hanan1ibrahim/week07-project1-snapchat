@@ -12,6 +12,8 @@
 		7A52C30C27423D6400C88F05 /* FirebaseOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C30B27423D6400C88F05 /* FirebaseOperations.swift */; };
 		7A52C30F27423F3C00C88F05 /* ChatScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C30E27423F3C00C88F05 /* ChatScreenTableViewCell.swift */; };
 		7A52C3132742422900C88F05 /* DirectMessageSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C3122742422900C88F05 /* DirectMessageSwift.swift */; };
+		DB64364C27426C320078A61F /* MapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB64364B27426C320078A61F /* MapModels.swift */; };
+		DB64364E27426CD90078A61F /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB64364D27426CD90078A61F /* MapScreen.swift */; };
 		E30A8186273AD43B00CCB1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A8185273AD43B00CCB1C3 /* AppDelegate.swift */; };
 		E30A8188273AD43B00CCB1C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A8187273AD43B00CCB1C3 /* SceneDelegate.swift */; };
 		E30A818A273AD43B00CCB1C3 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A8189273AD43B00CCB1C3 /* LaunchScreen.swift */; };
@@ -22,7 +24,6 @@
 		E30A81A0273B289B00CCB1C3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A819F273B289B00CCB1C3 /* Colors.swift */; };
 		E30A81A2273B28A800CCB1C3 /*  ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A81A1273B28A800CCB1C3 /*  ViewController.swift */; };
 		E30A81A4273BDB0400CCB1C3 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A81A3273BDB0400CCB1C3 /* TabBarVC.swift */; };
-		E30A81A6273BDBF000CCB1C3 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A81A5273BDBF000CCB1C3 /* MapVC.swift */; };
 		E30A81A8273BDC0800CCB1C3 /* ConversationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A81A7273BDC0800CCB1C3 /* ConversationsVC.swift */; };
 		E30A81AB273BDCB700CCB1C3 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A81AA273BDCB700CCB1C3 /* Contacts.swift */; };
 		E30A81AD273BDCD500CCB1C3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A81AC273BDCD500CCB1C3 /* ProfileVC.swift */; };
@@ -39,6 +40,8 @@
 		7A52C30E27423F3C00C88F05 /* ChatScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenTableViewCell.swift; sourceTree = "<group>"; };
 		7A52C3122742422900C88F05 /* DirectMessageSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessageSwift.swift; sourceTree = "<group>"; };
 		A8A7980C0F7812299763EC88 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB64364B27426C320078A61F /* MapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModels.swift; sourceTree = "<group>"; };
+		DB64364D27426CD90078A61F /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		E30A8182273AD43A00CCB1C3 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30A8185273AD43B00CCB1C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E30A8187273AD43B00CCB1C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +54,6 @@
 		E30A819F273B289B00CCB1C3 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		E30A81A1273B28A800CCB1C3 /*  ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " ViewController.swift"; sourceTree = "<group>"; };
 		E30A81A3273BDB0400CCB1C3 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
-		E30A81A5273BDBF000CCB1C3 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		E30A81A7273BDC0800CCB1C3 /* ConversationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsVC.swift; sourceTree = "<group>"; };
 		E30A81AA273BDCB700CCB1C3 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		E30A81AC273BDCD500CCB1C3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -93,7 +95,8 @@
 		7A52C30627423CB500C88F05 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				E30A81A5273BDBF000CCB1C3 /* MapVC.swift */,
+				DB64364B27426C320078A61F /* MapModels.swift */,
+				DB64364D27426CD90078A61F /* MapScreen.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				7A52C30A27423D0F00C88F05 /* ChatScreen.swift in Sources */,
 				E30A818A273AD43B00CCB1C3 /* LaunchScreen.swift in Sources */,
 				E30A81A2273B28A800CCB1C3 /*  ViewController.swift in Sources */,
+				DB64364E27426CD90078A61F /* MapScreen.swift in Sources */,
 				7A52C30827423CCC00C88F05 /* ChatModel.swift in Sources */,
 				E30A81A0273B289B00CCB1C3 /* Colors.swift in Sources */,
 				E30A81A8273BDC0800CCB1C3 /* ConversationsVC.swift in Sources */,
@@ -321,8 +325,8 @@
 				E3257349273FC5AF0088E3C2 /* CamVC.swift in Sources */,
 				E30A81AB273BDCB700CCB1C3 /* Contacts.swift in Sources */,
 				E30A819E273B288600CCB1C3 /* SignUpVC.swift in Sources */,
+				DB64364C27426C320078A61F /* MapModels.swift in Sources */,
 				E30A81A4273BDB0400CCB1C3 /* TabBarVC.swift in Sources */,
-				E30A81A6273BDBF000CCB1C3 /* MapVC.swift in Sources */,
 				7A52C3132742422900C88F05 /* DirectMessageSwift.swift in Sources */,
 				E30A8188273AD43B00CCB1C3 /* SceneDelegate.swift in Sources */,
 			);

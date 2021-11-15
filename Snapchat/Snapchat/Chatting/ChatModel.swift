@@ -25,10 +25,10 @@ struct MessageKit: MessageType {
 }
 
 struct User {
-    var id: String
-    var name: String
-    var status: String
-    var userEmail: String
+    var id: String?
+    var name: String?
+    var status: String?
+    var userEmail: String?
 }
 
 

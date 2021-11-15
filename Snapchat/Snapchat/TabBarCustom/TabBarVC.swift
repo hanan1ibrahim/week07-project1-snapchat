@@ -15,7 +15,7 @@ class TabBarVC: UITabBarController {
         
 
         viewControllers = [
-            barItem(tabBarTitle: "Map", tabBarImage: UIImage(systemName: "mappin")!.withTintColor(.white, renderingMode: .alwaysOriginal), viewController:  MapVC()),
+            barItem(tabBarTitle: "Map", tabBarImage: UIImage(systemName: "mappin")!.withTintColor(.white, renderingMode: .alwaysOriginal), viewController:  MapScreen()),
             barItem(tabBarTitle: "Chat", tabBarImage: UIImage(systemName: "message")!.withTintColor(.white, renderingMode: .alwaysOriginal), viewController: ChatScreen()),
             
             barItem(tabBarTitle: "Camera", tabBarImage: UIImage(systemName: "camera")!.withTintColor(.white, renderingMode: .alwaysOriginal), viewController: CamVC()),
