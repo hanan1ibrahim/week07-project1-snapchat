@@ -7,8 +7,11 @@ target 'Snapchat' do
 
   # Pods for Snapchat
 
-pod 'Firebase/Analytics'
-pod 'Firebase/Auth'
-pod 'Firebase/Firestore'
+  pod 'MessageKit'
+   pod 'Firebase/Analytics'
+   pod 'Firebase/Auth'
+   pod 'Firebase/Firestore'
+   pod 'FirebaseFirestoreSwift’,‘8.8.0-beta'
+   pod 'FirebaseStorage'
 
 end

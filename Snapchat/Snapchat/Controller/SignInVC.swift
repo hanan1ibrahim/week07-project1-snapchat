@@ -39,7 +39,8 @@ class SignInVC: UIViewController {
                 return
             }
             
-            let vc = ProfileVC()
+           // let vc = ProfileVC()
+            let vc = TabBarVC()
             vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: true, completion: nil)
         }
@@ -52,8 +53,8 @@ class SignInVC: UIViewController {
     }(UIButton(type: .system))
     
     lazy var emailTextFiled :  ViewController    = {
-        $0.textFiled.placeholder             = "Email"
-        $0.icon.image                        = UIImage(named: "email")
+        $0.textFiled.placeholder         = "Email"
+        $0.icon.image           = UIImage(named: "email")
         return $0
     }(ViewController())
     

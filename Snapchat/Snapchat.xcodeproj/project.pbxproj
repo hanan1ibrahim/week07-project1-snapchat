@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A52C30827423CCC00C88F05 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C30727423CCC00C88F05 /* ChatModel.swift */; };
+		7A52C30A27423D0F00C88F05 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C30927423D0F00C88F05 /* ChatScreen.swift */; };
+		7A52C30C27423D6400C88F05 /* FirebaseOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C30B27423D6400C88F05 /* FirebaseOperations.swift */; };
+		7A52C30F27423F3C00C88F05 /* ChatScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C30E27423F3C00C88F05 /* ChatScreenTableViewCell.swift */; };
+		7A52C3132742422900C88F05 /* DirectMessageSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C3122742422900C88F05 /* DirectMessageSwift.swift */; };
 		E30A8186273AD43B00CCB1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A8185273AD43B00CCB1C3 /* AppDelegate.swift */; };
 		E30A8188273AD43B00CCB1C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A8187273AD43B00CCB1C3 /* SceneDelegate.swift */; };
 		E30A818A273AD43B00CCB1C3 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A8189273AD43B00CCB1C3 /* LaunchScreen.swift */; };
@@ -28,6 +33,11 @@
 
 /* Begin PBXFileReference section */
 		5A78C152BA9256AABA6A6450 /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
+		7A52C30727423CCC00C88F05 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		7A52C30927423D0F00C88F05 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		7A52C30B27423D6400C88F05 /* FirebaseOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOperations.swift; sourceTree = "<group>"; };
+		7A52C30E27423F3C00C88F05 /* ChatScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreenTableViewCell.swift; sourceTree = "<group>"; };
+		7A52C3122742422900C88F05 /* DirectMessageSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessageSwift.swift; sourceTree = "<group>"; };
 		A8A7980C0F7812299763EC88 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30A8182273AD43A00CCB1C3 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30A8185273AD43B00CCB1C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +80,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7A52C30527423C8F00C88F05 /* Chatting */ = {
+			isa = PBXGroup;
+			children = (
+				7A52C30B27423D6400C88F05 /* FirebaseOperations.swift */,
+				7A52C30927423D0F00C88F05 /* ChatScreen.swift */,
+				7A52C30727423CCC00C88F05 /* ChatModel.swift */,
+			);
+			path = Chatting;
+			sourceTree = "<group>";
+		};
+		7A52C30627423CB500C88F05 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E30A81A5273BDBF000CCB1C3 /* MapVC.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		7A52C30D27423F0E00C88F05 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7A52C30E27423F3C00C88F05 /* ChatScreenTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7A52C31027423FB100C88F05 /* TabBarCustom */ = {
+			isa = PBXGroup;
+			children = (
+				E30A81A3273BDB0400CCB1C3 /* TabBarVC.swift */,
+			);
+			path = TabBarCustom;
+			sourceTree = "<group>";
+		};
+		7A52C3112742420400C88F05 /* DirectMessage */ = {
+			isa = PBXGroup;
+			children = (
+				7A52C3122742422900C88F05 /* DirectMessageSwift.swift */,
+			);
+			path = DirectMessage;
+			sourceTree = "<group>";
+		};
 		AADF63C5F669F39A7C94B96A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +152,13 @@
 		E30A8184273AD43A00CCB1C3 /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				7A52C3112742420400C88F05 /* DirectMessage */,
 				E30A823D273D59C300CCB1C3 /* GoogleService-Info.plist */,
+				7A52C31027423FB100C88F05 /* TabBarCustom */,
+				7A52C30D27423F0E00C88F05 /* Cell */,
+				7A52C30527423C8F00C88F05 /* Chatting */,
 				E30A819A273B285200CCB1C3 /* Views */,
+				7A52C30627423CB500C88F05 /* Map */,
 				E325734C27403E9A0088E3C2 /* Controller */,
 				E30A8185273AD43B00CCB1C3 /* AppDelegate.swift */,
 				E30A8187273AD43B00CCB1C3 /* SceneDelegate.swift */,
@@ -125,11 +182,9 @@
 		E325734C27403E9A0088E3C2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E30A81A3273BDB0400CCB1C3 /* TabBarVC.swift */,
 				E30A819B273B287F00CCB1C3 /* SignInVC.swift */,
 				E30A819D273B288600CCB1C3 /* SignUpVC.swift */,
 				E30A81AC273BDCD500CCB1C3 /* ProfileVC.swift */,
-				E30A81A5273BDBF000CCB1C3 /* MapVC.swift */,
 				E30A81AA273BDCB700CCB1C3 /* Contacts.swift */,
 				E3257348273FC5AF0088E3C2 /* CamVC.swift */,
 				E30A81A7273BDC0800CCB1C3 /* ConversationsVC.swift */,
@@ -253,17 +308,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E30A81AD273BDCD500CCB1C3 /* ProfileVC.swift in Sources */,
+				7A52C30F27423F3C00C88F05 /* ChatScreenTableViewCell.swift in Sources */,
+				7A52C30A27423D0F00C88F05 /* ChatScreen.swift in Sources */,
 				E30A818A273AD43B00CCB1C3 /* LaunchScreen.swift in Sources */,
 				E30A81A2273B28A800CCB1C3 /*  ViewController.swift in Sources */,
+				7A52C30827423CCC00C88F05 /* ChatModel.swift in Sources */,
 				E30A81A0273B289B00CCB1C3 /* Colors.swift in Sources */,
 				E30A81A8273BDC0800CCB1C3 /* ConversationsVC.swift in Sources */,
 				E30A8186273AD43B00CCB1C3 /* AppDelegate.swift in Sources */,
+				7A52C30C27423D6400C88F05 /* FirebaseOperations.swift in Sources */,
 				E30A819C273B287F00CCB1C3 /* SignInVC.swift in Sources */,
 				E3257349273FC5AF0088E3C2 /* CamVC.swift in Sources */,
 				E30A81AB273BDCB700CCB1C3 /* Contacts.swift in Sources */,
 				E30A819E273B288600CCB1C3 /* SignUpVC.swift in Sources */,
 				E30A81A4273BDB0400CCB1C3 /* TabBarVC.swift in Sources */,
 				E30A81A6273BDBF000CCB1C3 /* MapVC.swift in Sources */,
+				7A52C3132742422900C88F05 /* DirectMessageSwift.swift in Sources */,
 				E30A8188273AD43B00CCB1C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,8 +470,10 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) microphone use";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,8 +502,10 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) microphone use";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
