@@ -27,10 +27,10 @@ func getUsers(completion: @escaping([User])->()) {
             var users:[User] = []
             for document in snapshot!.documents {
                 let docId = document.documentID
-                let name = document.get("name") as! String
-                let id = document.get("id") as! String
-                let status = document.get("status") as! String
-                let email = document.get("email") as! String
+                let name = document.get("name") as? String
+                let id = document.get("id") as? String
+                let status = document.get("status") as? String
+                let email = document.get("email") as? String
                 
                 let user = User(id: id, name: name, status: status, userEmail: email)
                 users.append(user)

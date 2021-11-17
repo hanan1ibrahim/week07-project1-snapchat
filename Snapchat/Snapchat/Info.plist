@@ -4,6 +4,10 @@
 <dict>
 	<key>Privacy - Camera Usage Description   </key>
 	<string>$(PRODUCT_NAME) camera use</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The app needs to access your current location to show it on the map.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>The app needs to access your photo library to save your images.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
