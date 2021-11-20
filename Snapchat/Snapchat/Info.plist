@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Privacy - Camera Usage Description   </key>
-	<string>$(PRODUCT_NAME) camera use</string>
+	<key>NSCameraUsageDescription</key>
+	<string>The app needs to access your camera to take photos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>The app needs to access your photo library to save your images.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app needs to access your current location to show it on the map.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>The app needs to access your current location to show it on the map.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
