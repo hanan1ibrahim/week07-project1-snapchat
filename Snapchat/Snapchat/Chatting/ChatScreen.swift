@@ -41,8 +41,7 @@ class ChatScreen : UIViewController{
         view.addSubview(tableView)
         setupSearchBar()
         setupTableView()
-//        fetchAllUsers()
-        fetchUsers()
+        fetchAllUsers()
     }
     
    
@@ -64,7 +63,7 @@ class ChatScreen : UIViewController{
         search.obscuresBackgroundDuringPresentation = false
         search.searchBar.returnKeyType = .done
         search.searchBar.sizeToFit()
-        search.searchBar.placeholder = "Search for a friend"
+        search.searchBar.placeholder = "Search"
         search.hidesNavigationBarDuringPresentation = false
         definesPresentationContext = true
         
@@ -74,12 +73,7 @@ class ChatScreen : UIViewController{
     }
 
     
-    private func fetchUsers() {
-        getUsers { users in
-            self.users = users
-            self.tableView.reloadData()
-        }
-    }
+
     
     private func fetchAllUsers() {
        
