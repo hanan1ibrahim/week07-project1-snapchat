@@ -107,7 +107,7 @@ class DMScreen: MessagesViewController {
         reloadInputViews()
     }
     
-    private func  fetchMessages() {
+    private func fetchMessages() {
         
         
         db.collection("Messages").whereField("messagesBetween", isEqualTo: [user, barTitle].sorted())
